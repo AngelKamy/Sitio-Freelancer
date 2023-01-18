@@ -1,9 +1,39 @@
-h1{
-    text-align: center; /* Alinea el texto dependiendo el valor del atributo */
-    color: cornflowerblue;
-}
-h1 span{
-    font-size: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+:root {
+    /* Colores */
+    --black: #000000;
+    --white: #ffffff;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gray: #757575;
+
+    /* Tamaño de fuentes */
+    --principal-font: 3.8rem;
 }
 
+html {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 62.5%;
+}
 
+body {
+    font-size: 16px;
+}
+
+.título {
+    /* Alinea el texto dependiendo el valor del atributo */
+    text-align: center;
+    font-size: var(--principal-font);
+    color: var(--primario);
+}
+
+.título span {
+    font-size: 2rem;
+}
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+.navegacion-principal{
+    background-color: var(--secundario);
+}
